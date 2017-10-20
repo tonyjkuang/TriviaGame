@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Triiiiiiivia Game!</title>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, inital-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="assets/css/style.css">
+  	<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Modak" rel="stylesheet">
+
+</head>
+<body>
+	<div class="jumbotron">
+		<h1 class="display-3"><strong>Totally Trivia Game</strong></h1>
+		<h2>Just Fast Food!</h2>
+	</div>
+
+	<button id="start" class="btn btn-danger btn-lg active">Let's Find Out!
+	</button> 
+
+	<div class="container">
+		<div class="row">
+			<div id="displayTime"></div>
+		</div>
+		<div class="row">
+			<h3 id="question1" class="col-md-10 col-md-offset-1"><strong>Which cheese went into space with Italian astronauts on February 22, 1996, when they took it aboard the Columbia Space Shuttle on a NASA space mission?</strong></s>
+		</div>
+		<div class="row">
+			<h4 id="opt1"><input type="radio" name="question1" value="incorrect"> Gorgonzola</h4>
+			<h4 id="opt2"><input type="radio" name="question1" value="correct"> Parmesan</h4>
+			<h4 id="opt3"><input type="radio" name="question1" value="incorrect"> Mozzarella</h4>
+		</div>
+		<div class="row">
+			<h3 id="question2" class="col-md-10 col-md-offset-1"><strong>Which fruit did the Ancient Greeks hold to be sacred to Aphrodite, the goddess of love?</strong></h3>
+		</div>
+		<div class="row">
+			<h4 id="opt1"><input type="radio" name="question2" value="incorrect"> Apple</h4>
+			<h4 id="opt2"><input type="radio" name="question2" value="incorrect"> Banana</h4>
+			<h4 id="opt3"><input type="radio" name="question2" value="correct"> Quince</h4>
+		</div>	
+		<div class="row">		
+			<h3 id="question3" class="col-md-10 col-md-offset-1"><strong>How many sets of disposable wooden chopsticks does the average Japanese person use in a year?</strong></h3>
+		</div>
+		<div class="row">
+			<h4 id="opt1"><input type="radio" name="question3" value="correct"> 200</h4>
+			<h4 id="opt2"><input type="radio" name="question3" value="incorrect"> 50</h4>
+			<h4 id="opt3"><input type="radio" name="question3" value="incorrect"> 350</h4>
+		</div>
+		<div class="row">
+			<h3 id="question4" class="col-md-10 col-md-offset-1"><strong>Borscht is an East European soup. What is it made from?</strong></h3>
+		</div>
+		<div class="row">
+			<h4 id="opt1"><input type="radio" name="question4" value="incorrect"> Cabbage</h4>
+			<h4 id="opt2"><input type="radio" name="question4" value="correct"> Beetroot</h4>
+			<h4 id="opt3"><input type="radio" name="question4" value="incorrect"> Potato</h4>
+		</div>
+		<div class="row">
+			<h3 id="question5" class="col-md-10 col-md-offset-1"><strong>What is the European equivalent of one cup of flour?</strong></h3>
+		</div>
+		<div class="row">
+			<h4 id="opt1"><input type="radio" name="question5" value="correct"> 140 Grams</h4>
+			<h4 id="opt2"><input type="radio" name="question5" value="incorrect"> 75 Grams</h4>
+			<h4 id="opt3"><input type="radio" name="question5" value="incorrect"> 200 Grams</h4>
+		</div>
+		<div class="row">
+			<h3 id="question6" class="col-md-10 col-md-offset-1"><strong>Where do lamingtons (little cakes) originate from?</strong></h3>
+		</div>
+		<div class="row">
+			<h4 id="opt1"><input id="opt1" type="radio" name="question6" value="incorrect"> England</h4>
+			<h4 id="opt2"><input id="opt2" type="radio" name="question6" value="correct"> Australia</h4>
+			<h4 id="opt3"><input id="opt3" type="radio" name="question6" value="incorrect"> India</h4>
+		</div>
+		<div class="row">
+			<h3 id="question7" class="col-md-10 col-md-offset-1"><strong>Traditional Italian pesto is made from basil, olive oil and which nut?</strong></h3>
+		</div>
+		<div class="row">
+			<h4 id="opt1"><input id="opt1" type="radio" name="question7" value="incorrect"> Walnut</h4>
+			<h4 id="opt2"><input id="opt2" type="radio" name="question7" value="correct"> Pine Nut</h4>
+			<h4 id="opt3"><input id="opt3" type="radio" name="question7" value="incorrect"> Almond</h4>
+		</div>
+		<div class="row">
+			<h3 id="question8" class="col-md-10 col-md-offset-1"><strong>What is the English dish, toad in the hole?</strong></h3>
+		</div>
+		<div class="row">
+			<h4 id="opt1"><input id="opt1" type="radio" name="question8" value="incorrect"> Frogs Legs Wrapped in Ham</h4>
+			<h4 id="opt2"><input id="opt2" type="radio" name="question8" value="correct"> Sausages in Batter Pudding</h4>
+			<h4 id="opt3"><input id="opt3" type="radio" name="question8" value="incorrect"> Stuffed Mushroom</h4>
+		</div>
+		<div class="row">
+			<h3 id="question9" class="col-md-10 col-md-offset-1"><strong>What kind of smoked fish is a kipper?</strong></h3>
+		</div>
+		<div class="row">
+			<h4 id="opt1"><input id="opt1" type="radio" name="question9" value="incorrect"> Salmon</h4>
+			<h4 id="opt2"><input id="opt2" type="radio" name="question9" value="incorrect"> Haddock</h4>
+			<h4 id="opt3"><input id="opt3" type="radio" name="question9" value="correct"> Herring</h4>
+		</div>
+		<div class="row">
+			<h3 id="question10" class="col-md-10 col-md-offset-1"><strong>What is the more common name nowadays for Toll House Cookies?</strong></h3>
+		</div>
+		<div class="row">
+			<h4 id="opt1"><input id="opt1" type="radio" name="question10" value="correct"> Chocolate Chip Cookies</h4>
+			<h4 id="opt2"><input id="opt2" type="radio" name="question10" value="incorrect"> Spice Cookies</h4>
+			<h4 id="opt3"><input id="opt3" type="radio" name="question10" value="incorrect"> Peanut Butter Cookies</h4>
+		</div>
+		<br>
+		<div id="submit"></div>
+
+	</div>
+
+		<div class="results">
+			<h2>Game Over!</h2>
+		</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>

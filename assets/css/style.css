@@ -1,0 +1,51 @@
+body {
+	background-image: url("../images/fast food.png");                  
+    background-repeat: repeat;
+    background-position: center; 
+}
+
+.jumbotron {
+	opacity: 0.75;
+	font-family: 'Fascinate Inline', cursive;
+	color: purple;
+	text-align: center;
+}
+
+.container {
+	width: 90%;
+	border: 5px dashed #08038c;
+	text-align: center;
+	background-color: #f9f5dc;
+	opacity: 0.85;
+}
+
+h3 {
+	color: green;
+}
+
+
+#opt1 {
+	color: red;
+}
+
+#opt2 {
+	color: black;
+}
+
+#opt3 {
+	color: blue;
+}
+
+#start {
+	margin-left: 47%;
+	margin-top: 10%;
+}
+
+.results {
+	margin-left: 70px;
+	width: 90%;
+	border: 5px dashed #08038c;
+	text-align: center;
+	background-color: #f9f5dc;
+	opacity: 0.85;
+}
